@@ -13,7 +13,7 @@ I hold a Masters degree in Information Systems from Northeastern University, Bos
 
 | Repository | Description |
 |---|---|
-| [finnhub-realtime-pipeline](https://github.com/piyush-an/finnhub-realtime-pipeline) | Real-Time Trade Analysis Pipeline using Finnhub.io and Spark |
+| [Finnhub-Realtime-Pipeline](https://github.com/piyush-an/Finnhub-Realtime-Pipeline) | Real-Time Trade Analysis Pipeline using Finnhub.io and Spark |
 | [NYC-Restaurant-Inspection](https://github.com/piyush-an/NYC-Restaurant-Inspection) | Data Warehousing Application on NYC Food Inspection |
 | [News-Aggregator](https://github.com/BigDataIA-Summer2022-Team04/News-Aggregator) | Custom news apps deliver tailored content, simplifying access without lengthy browsing |
 | [Image Classification Application](https://github.com/BigDataIA-Summer2022-Team04/Assignment_03) | Image Classification Application for Identifying Defective Manufacturing Products |
