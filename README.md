@@ -9,7 +9,7 @@ I hold a Masters degree in Information Systems from Northeastern University, Bos
 * 😄 Pronouns: he/him
 * 👩‍💼 Seeking exciting full-time opportunities!
 
-## My Recent Works
+## My Recent Works:
 
 | Repository | Description |
 |---|---|
