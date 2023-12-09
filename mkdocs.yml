@@ -1,0 +1,70 @@
+site_name: Piyush Portfolio
+site_url: "https://piyush-an.github.io/piyush-an/"
+
+# Copyright
+copyright: "&copy; 2024 Piyush Anand"
+
+# Repository
+repo_name: piyush-an/piyush-an
+repo_url: https://github.com/piyush-an/piyush-an
+edit_uri: blob/main/docs/
+theme:
+  name: material
+  language: "en"
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - tabs
+    - navigation.tabs
+    - navigation.top
+
+# Socials
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/piyush-an
+    - icon: fontawesome/brands/linkedin-in
+      link: https://www.linkedin.com/in/anandpiyush
+    - icon: fontawesome/brands/stack-overflow
+      link: https://stackoverflow.com/users/9136155
+
+# Plugins
+plugins:
+  - tags
+  - blog:
+      enabled: true
+      blog_dir: blog
+  - search
+
+# Markdown Extensions
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+# Navigation
+nav:
+  - Home: 
+    - Home: index.md
+  - Work:
+    - Work Experience: work.md
+  - Projects:
+    - Projects: projects.md
+  - Blog:
+    - blog/index.md
